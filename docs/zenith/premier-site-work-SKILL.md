@@ -1,0 +1,28 @@
+---
+name: premier-site-work
+description: Execute assigned Premier Cleaners website strategy, page design, static implementation, asset preparation or integration work within a Zenith task.
+---
+
+# Premier website worker method
+
+Read assigned task/contract targets, mission.md, project AGENTS.md, full BUSINESS.md, and preserved research before editing. Work through the runtime assignment and return the required end_node handoff. The parent owns orchestration; do not start another Zenith project.
+
+For design/copy assignments, produce reviewable direction and source-backed copy/IA artifacts in workspace docs/. Use completed research; do not redo it. Establish specific typography, responsive composition, image roles and modest interaction details. Treat competitor material as context, never source copy or a layout to recreate. The task specifies ownership; you are not alone in this workspace. Preserve other edits and reconcile dependencies.
+
+For implementation assignments, follow the validated direction and build semantic static pages in public/ with shared CSS and minimal JS. Keep all public assets self-contained. No heavy framework for four marketing pages. A text wordmark is appropriate while a real logo file is missing. Actual navy/yellow work-shirt colors inform identity but do not fabricate a logo provenance.
+
+BUSINESS.md governs every business claim, alt text and metadata. Three major categories are supported, but potential subtasks/frequencies and section-15 services are not definitive. No specific protocols/OSHA/HIPAA/certifications/client names or unapproved proof. Donald is named in prose; nobody in the photos is confirmed to be Donald. No invented quotation or founder history. Unknown email/domain/address/surname/days/suburbs remain absent or readable review markers, never working placeholder URLs. Phone 585-340-6868 is sufficient for a complete honest request flow.
+
+Preserve original photos and BUSINESS.md. Use ordinary image encoding/orientation/cropping tools for web derivatives without synthesizing new photographic content; retain a manifest of source, dimensions and crop. Exclude readable third-party client branding and strip private metadata. Do not fetch stock or generated people. Keep image tooling/dev dependencies and caches within workspace or this harnessRoot. Native public CSS/HTML/SVG design details are allowed.
+
+Before handoff, read every rendered/public text surface as a prospective facilities client, not as the website author. BUSINESS guardrails belong in internal docs, never public explanations of missing facts or production choices. Repeated failure examples to remove/rewrite if present: 'three supported service categories', 'is positioned as', 'without inventing a surname', 'no fabricated history or quote', 'does not need to overstate its size', 'used without identifying the person pictured', and 'confirmed phone path rather than a placeholder email/unverified address'. Do not publish descriptions of what the company/site should look or feel like; communicate what the client receives. Scan for these patterns but also read all headings, body, captions, action text, alt text and metadata because an exact-word scan alone misses the underlying problem. Preserve honest omissions without turning them into defensive public copy. See decisions/006, 008, 009 and 010 in mission-001. Record that this visitor-text review was performed and resolve remaining leaks before calling the result polished.
+
+Use one local browser session for self-checks; read agent-browser skill and browser-setup.md at harnessRoot. Capture and view desktop/mobile screenshots, fix actual composition problems before handoff, check no-JS navigation and reduced motion for affected behavior. No concurrent browser use with another task; release it on completion. Local preview must bind 127.0.0.1; helper windows hidden.
+
+No final git commit, staging unrelated files, remote creation, push or external deploy. Never use git checkout/reset to discard others' work. Writes only in C:/src/PremierCleaners and this approved Zenith project. Do not change runtime cursors, contract criteria or business facts to pass.
+
+Handoff: list changed files, per-target behavior and self-check evidence, remaining actual unknowns, known limitations, and preview command. Source claims and screenshots are worker evidence, not independent validation. Report gaps honestly so the parent can route fixes.
+
+For integration or corrective work, build an explicit resolution list from the task's cited decisions and validator findings before editing. At handoff, give each finding its actual resolution, current file/evidence path and any remaining gap; a generic polished/all-passed statement does not resolve it. Map self-checks to the current contract file IDs, never reconstruct IDs from memory or substitute neighboring behaviors. Targetless supplementary integration reports the affected existing assertions without claiming new ownership or independent acceptance. Shared CSS changes require checking all four pages, including narrow mobile rows, normal-size accent text and focus states on both light and dark surfaces.
+
+For responsive typography, measure actual content width including classic scrollbar loss, not nominal viewport alone. Test normal320/390 and enlarged text visually; record root/heading sizes and line breaks. Never fake fit by hiding overflow or scrollbars, locking user text size, clipping copy, or defeating zoom. Preserve enlargement and use sensible linguistic breaks when needed. An automatic no-overflow result is not a readability verdict. Read decision020 for the current bounded hero correction.
