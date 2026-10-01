@@ -1,5 +1,7 @@
 # Premier Cleaners Static Site
 
+> **Superseded in part (2026-10-01):** The owner input and owner follow-up of 2026-10-01 (docs/owner-input-2026-10-01.md, docs/owner-followup-2026-10-01.md), recorded in BUSINESS.md Revision #2, supersede this file's three-service, owner-portrait/visibility, review/testimonial, service-area and top-tier/big-city statements. Where they conflict, follow BUSINESS.md Revision #2.
+
 Four-page static website for Premier Cleaners, a commercial cleaning company serving Greater Rochester. BUSINESS.md is the factual authority for copy, metadata, alt text, and future edits.
 
 ## Prerequisites

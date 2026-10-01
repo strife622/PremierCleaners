@@ -62,8 +62,7 @@ a {
 .final-cta :focus-visible,
 .site-footer :focus-visible,
 .phone-panel :focus-visible,
-.contact-action :focus-visible,
-.owner-contact :focus-visible {
+.contact-action :focus-visible {
   outline-color: var(--focus-on-dark);
   box-shadow: 0 0 0 6px rgba(255, 252, 246, 0.3);
 }
@@ -704,59 +703,65 @@ span {
   font-size: 0.88rem;
 }
 
-.owner-band {
+.paper-band {
   background: var(--paper);
   border-top: 1px solid var(--stone);
   border-bottom: 1px solid var(--stone);
 }
 
-.owner-card {
+.proof-layout {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.42fr);
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.82fr);
   gap: 44px;
   align-items: center;
   padding: 0;
 }
 
-.owner-contact {
-  min-height: 220px;
+.section-head .proof-line {
+  color: var(--navy);
+  font-weight: 750;
+}
+
+.proof-note {
+  margin: 22px 0 0;
+  color: var(--gray);
+  font-weight: 700;
+}
+
+.quote-card {
+  min-width: 0;
   display: grid;
-  align-content: center;
-  gap: 16px;
-  padding: 28px;
+  gap: 22px;
+  margin: 0;
+  padding: 32px 28px;
   border-radius: 8px;
   background: var(--navy);
   color: var(--paper);
 }
 
-.owner-contact-label {
-  min-width: 0;
-  max-width: 100%;
+.quote-card blockquote {
+  margin: 0;
+  padding-left: 18px;
+  border-left: 4px solid var(--yellow);
+}
+
+.quote-card blockquote p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.quote-card figcaption {
   color: var(--yellow);
   font-size: 0.9rem;
   font-weight: 850;
   text-transform: uppercase;
 }
 
-.owner-contact strong {
-  min-width: 0;
-  max-width: 100%;
-  font-size: 1.35rem;
-  line-height: 1.18;
-}
-
-.owner-contact a {
-  min-width: 0;
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-  width: max-content;
-  max-width: 100%;
-  color: var(--yellow);
-  font-weight: 850;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
+.email-link {
+  overflow-wrap: anywhere;
 }
 
 .final-cta {
@@ -896,7 +901,7 @@ span {
 .service-detail,
 .service-index,
 .about-principles,
-.owner-story,
+.work-story,
 .contact-layout,
 .contact-process {
   display: grid;
@@ -910,12 +915,12 @@ span {
 .service-detail > *,
 .service-index > *,
 .about-principles > *,
-.owner-story > *,
+.work-story > *,
 .contact-layout > *,
 .contact-process > *,
 .split > *,
 .final-cta .wrap > *,
-.owner-card > * {
+.proof-layout > * {
   min-width: 0;
 }
 
@@ -979,7 +984,7 @@ span {
 
 .hero-aside,
 .service-media,
-.owner-photo {
+.work-photo {
   margin: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -989,7 +994,7 @@ span {
 
 .hero-aside img,
 .service-media img,
-.owner-photo img {
+.work-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1001,7 +1006,7 @@ span {
 }
 
 .hero-aside figcaption,
-.owner-photo figcaption {
+.work-photo figcaption {
   padding: 13px 15px;
   background: var(--navy);
   color: rgba(255, 252, 246, 0.8);
@@ -1019,6 +1024,10 @@ span {
   align-items: start;
 }
 
+.service-detail > .scope-note {
+  margin-top: 0;
+}
+
 .service-number {
   position: sticky;
   top: 104px;
@@ -1030,14 +1039,14 @@ span {
 
 .service-copy h2,
 .philosophy-grid h2,
-.owner-story h2,
+.work-story h2,
 .contact-layout h2 {
   font-size: 2.65rem;
 }
 
 .service-copy p,
 .philosophy-copy p,
-.owner-story p,
+.work-story p,
 .contact-layout p,
 .no-form-band p {
   color: var(--gray);
@@ -1094,7 +1103,7 @@ span {
   font-weight: 900;
 }
 
-.responsible-card {
+.record-card {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -1106,16 +1115,16 @@ span {
   color: var(--paper);
 }
 
-.responsible-card h2 {
+.record-card h2 {
   color: var(--paper);
   font-size: 1.55rem;
 }
 
-.responsible-card p {
+.record-card p {
   color: rgba(255, 252, 246, 0.78);
 }
 
-.responsible-name {
+.record-label {
   margin-bottom: auto;
   color: var(--yellow);
   font-size: 1rem;
@@ -1131,6 +1140,10 @@ span {
 
 .philosophy-copy p:first-child {
   margin-top: 0;
+}
+
+.philosophy-copy p {
+  break-inside: avoid;
 }
 
 .principle-list,
@@ -1166,7 +1179,7 @@ span {
   color: rgba(255, 252, 246, 0.76);
 }
 
-.owner-story {
+.work-story {
   grid-template-columns: minmax(260px, 0.42fr) minmax(0, 1fr);
 }
 
@@ -1174,11 +1187,7 @@ span {
   grid-template-columns: minmax(260px, 0.38fr) minmax(0, 1fr);
 }
 
-.owner-card-text {
-  align-items: center;
-}
-
-.owner-photo {
+.work-photo {
   height: 500px;
 }
 
@@ -1401,7 +1410,7 @@ span {
   .service-grid,
   .split,
   .photo-story,
-  .owner-card,
+  .proof-layout,
   .final-cta .wrap,
   .footer-grid,
   .page-grid,
@@ -1412,7 +1421,7 @@ span {
   .service-detail,
   .service-index,
   .about-principles,
-  .owner-story,
+  .work-story,
   .contact-layout,
   .contact-process {
     grid-template-columns: minmax(0, 1fr);
@@ -1505,10 +1514,6 @@ span {
     padding: 24px;
   }
 
-  .owner-card {
-    padding: 0;
-  }
-
   .service-row {
     grid-template-columns: 44px minmax(0, 1fr);
     gap: 14px;
@@ -1556,7 +1561,7 @@ span {
 
   .service-copy h2,
   .philosophy-grid h2,
-  .owner-story h2,
+  .work-story h2,
   .contact-layout h2,
   .split h2 {
     font-size: 2.08rem;
@@ -1571,7 +1576,7 @@ span {
     gap: 6px;
   }
 
-  .owner-photo {
+  .work-photo {
     height: 410px;
   }
 

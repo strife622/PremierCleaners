@@ -1,5 +1,7 @@
 # Page Shell Notes
 
+> **Superseded in part (2026-10-01):** The owner input and owner follow-up of 2026-10-01 (docs/owner-input-2026-10-01.md, docs/owner-followup-2026-10-01.md), recorded in BUSINESS.md Revision #2, supersede this file's three-service, owner-portrait/visibility, review/testimonial, service-area and top-tier/big-city statements. Where they conflict, follow BUSINESS.md Revision #2.
+
 Status: final-integration notes for the static site. These notes are outside `public/` and are not launch copy.
 
 ## Current Route State

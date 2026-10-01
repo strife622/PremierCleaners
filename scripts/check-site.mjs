@@ -129,7 +129,9 @@ function checkReference(rawReference, fromFile) {
     return;
   }
   if (/^mailto:/i.test(rawReference)) {
-    fail(`${path.relative(root, fromFile)} contains mailto URL ${rawReference}`);
+    if (rawReference !== "mailto:DonaldH@premiercleanersuny.com") {
+      fail(`${path.relative(root, fromFile)} contains mailto URL ${rawReference}`);
+    }
     return;
   }
 
@@ -181,7 +183,7 @@ const allowedEagerImages = new Set([
 ]);
 
 const placeholderPattern = /<placeholder>|<company|<confirm|company email|company address|TODO|FIXME/i;
-const prohibitedPattern = /\b(HIPAA|OSHA|hospital-grade|biohazard|regulated medical waste|terminal cleaning|operating-room|infection-control|bloodborne|fully insured|bonded|licensed|certified|certification|testimonial|review|star rating|award|years in business|years of experience|24\/7|emergency|same cleaner|family-owned|locally owned|carpet extraction|stripping|refinishing)\b/i;
+const prohibitedPattern = /\b(HIPAA|OSHA|hospital-grade|biohazard|regulated medical waste|terminal cleaning|operating-room|infection-control|bloodborne|fully insured|bonded|licensed|certified|certification|testimonial|review|star rating|award|years in business|years of experience|24\/7|emergency|same cleaner|family-owned|locally owned|stripping|refinishing)\b/i;
 
 for (const file of htmlFiles) {
   const relative = path.relative(root, file);
