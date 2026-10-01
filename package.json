@@ -1,0 +1,11 @@
+{
+  "name": "premier-cleaners-static-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static four-page Premier Cleaners website.",
+  "scripts": {
+    "preview": "node scripts/preview.mjs",
+    "check": "node scripts/check-site.mjs && node scripts/lab-performance.mjs --self-test"
+  },
+  "devDependencies": {}
+}

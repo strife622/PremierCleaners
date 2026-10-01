@@ -1,0 +1,159 @@
+﻿{
+    "generatedBy":  "tools/build-assets.ps1",
+    "generatedAtUtc":  "2026-09-14T05:24:45Z",
+    "policy":  "Derivatives are generated from inspected repository photos only. Originals remain outside public/. Orientation is normalized before export. New JPEG bitmaps are written without EXIF, GPS, IPTC or XMP metadata; an encoding color profile is not required.",
+    "derivatives":  [
+                        {
+                            "file":  "assets/images/hallway-portrait-720.jpg",
+                            "source":  "assets/photos/CleanedHallway.jpg",
+                            "role":  "Home and Services hallway facility image",
+                            "width":  720,
+                            "height":  900,
+                            "bytes":  57932,
+                            "sha256":  "09A6890CF959945F17CB56EF9D085DF0481C52715A24F0CBFC63F20F44673DDF",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  105,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Orientation normalized from EXIF. Crop shows light walls, glass doors, and wood-look flooring with no visible client identity."
+                        },
+                        {
+                            "file":  "assets/images/hallway-portrait-1200.jpg",
+                            "source":  "assets/photos/CleanedHallway.jpg",
+                            "role":  "Home and Services hallway facility image",
+                            "width":  1200,
+                            "height":  1500,
+                            "bytes":  131722,
+                            "sha256":  "58A1F781942726536085023ECB7FBEA4CADC0E4D890C1064D11A41990161F9B2",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  105,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Large responsive hallway derivative; original preserved outside public."
+                        },
+                        {
+                            "file":  "assets/images/elevator-detail-540.jpg",
+                            "source":  "assets/photos/Cleaningelevatorhandles.jpg",
+                            "role":  "Work-detail image",
+                            "width":  540,
+                            "height":  720,
+                            "bytes":  52188,
+                            "sha256":  "E352347418C843755753A65CE6AD75B11EFC0A922D34726E4DF3BC82762C2AA7",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  2048,
+                                         "width":  1536,
+                                         "y":  0,
+                                         "sourceOrientedWidth":  1536,
+                                         "x":  0,
+                                         "height":  2048
+                                     },
+                            "notes":  "Real handrail cleaning and Premier shirt; worker not identified as Donald."
+                        },
+                        {
+                            "file":  "assets/images/elevator-detail-900.jpg",
+                            "source":  "assets/photos/Cleaningelevatorhandles.jpg",
+                            "role":  "Work-detail image",
+                            "width":  900,
+                            "height":  1200,
+                            "bytes":  112822,
+                            "sha256":  "A8B71959C815E94E562FBA5DC7F8AF28C5FAE4AE1DE8E06A10105C839D1E470C",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  2048,
+                                         "width":  1536,
+                                         "y":  0,
+                                         "sourceOrientedWidth":  1536,
+                                         "x":  0,
+                                         "height":  2048
+                                     },
+                            "notes":  "Responsive larger derivative; no third-party signage visible."
+                        },
+                        {
+                            "file":  "assets/images/clinical-room-640.jpg",
+                            "source":  "assets/photos/CleanedDentistArea.jpg",
+                            "role":  "Professional/clinical facility context",
+                            "width":  640,
+                            "height":  800,
+                            "bytes":  65636,
+                            "sha256":  "3CD230C4CB93B91252095B87FEFE7359DDE5BF58D141AA32272FA69C99C645C4",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  110,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Clinical/dental-style interior context only; no compliance or named-client claim."
+                        },
+                        {
+                            "file":  "assets/images/clinical-room-960.jpg",
+                            "source":  "assets/photos/CleanedDentistArea.jpg",
+                            "role":  "Professional/clinical facility context",
+                            "width":  960,
+                            "height":  1200,
+                            "bytes":  122244,
+                            "sha256":  "7E4F3687C9BBB5DE5E6925EBC3B103451A053BB3E24837E1E7F19E1DD25A2E05",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  110,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Orientation normalized from EXIF; metadata stripped."
+                        },
+                        {
+                            "file":  "assets/images/floor-care-640.jpg",
+                            "source":  "assets/photos/Floorpolishing.jpg",
+                            "role":  "Floor care service image",
+                            "width":  640,
+                            "height":  800,
+                            "bytes":  58051,
+                            "sha256":  "14F86C502622DCA5201851EB9B2FBE3D4EE53708C0137DE9DEBEE25D44244513",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  125,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Real floor-care work; worker not identified and no extra service claims implied."
+                        },
+                        {
+                            "file":  "assets/images/floor-care-960.jpg",
+                            "source":  "assets/photos/Floorpolishing.jpg",
+                            "role":  "Floor care service image",
+                            "width":  960,
+                            "height":  1200,
+                            "bytes":  109770,
+                            "sha256":  "8D7A99662989F89B7C108184700D2364F111EAC83A4711F32268162E8F8BB551",
+                            "metadataPropertyCount":  2,
+                            "crop":  {
+                                         "sourceOrientedHeight":  4000,
+                                         "width":  3000,
+                                         "y":  125,
+                                         "sourceOrientedWidth":  3000,
+                                         "x":  0,
+                                         "height":  3750
+                                     },
+                            "notes":  "Responsive larger derivative; original preserved outside public."
+                        }
+                    ]
+}
