@@ -1125,11 +1125,6 @@ span {
 }
 
 .record-card {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 360px;
   padding: 28px;
   border-radius: 8px;
   background: var(--navy);
@@ -1142,15 +1137,16 @@ span {
 }
 
 .record-card p {
+  margin: 14px 0 0;
   color: rgba(255, 252, 246, 0.78);
 }
 
 .record-label {
-  margin-bottom: auto;
+  display: block;
+  margin-bottom: 18px;
   color: var(--yellow);
-  font-size: 1rem;
-  font-weight: 900;
-  line-height: 0.9;
+  font-size: 0.95rem;
+  font-weight: 750;
   text-transform: uppercase;
 }
 
