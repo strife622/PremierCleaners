@@ -117,6 +117,7 @@ a {
 }
 
 .wordmark small {
+  margin-top: 4px;
   color: var(--copper);
   font-size: 0.72rem;
   font-weight: 650;
@@ -723,12 +724,6 @@ span {
   font-weight: 750;
 }
 
-.proof-note {
-  margin: 22px 0 0;
-  color: var(--gray);
-  font-weight: 700;
-}
-
 .quote-card {
   min-width: 0;
   display: grid;
@@ -740,6 +735,20 @@ span {
   color: var(--paper);
 }
 
+.quote-label {
+  margin: 0;
+  color: var(--yellow);
+  font-size: 0.85rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.letter-excerpt {
+  display: grid;
+  gap: 18px;
+  margin: 0;
+}
+
 .quote-card blockquote {
   margin: 0;
   padding-left: 18px;
@@ -749,15 +758,22 @@ span {
 .quote-card blockquote p {
   margin: 0;
   font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.45;
+  font-weight: 650;
+  line-height: 1.55;
 }
 
 .quote-card figcaption {
-  color: var(--yellow);
-  font-size: 0.9rem;
-  font-weight: 850;
-  text-transform: uppercase;
+  color: var(--paper);
+  font-size: 0.95rem;
+  font-weight: 750;
+}
+
+.quote-note {
+  margin: 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 252, 246, 0.2);
+  color: rgba(255, 252, 246, 0.78);
+  font-size: 0.95rem;
 }
 
 .email-link {
@@ -820,6 +836,11 @@ span {
 
 .site-footer .wordmark {
   color: var(--paper);
+}
+
+.site-footer .footer-legal {
+  margin-top: 18px;
+  font-size: 0.9rem;
 }
 
 .site-footer .wordmark small {

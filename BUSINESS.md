@@ -10,6 +10,20 @@
 
 ---
 
+# Owner Feedback Round 1 (2026-10-01)
+
+> **Owner feedback round 1, dated 2026-10-01.** Donald Hunter's review notes, recorded verbatim in `docs/owner-feedback-2026-10-01.md` (cited as **FB**), plus three facts Travis relayed with them. Where this section conflicts with Revision #2 or anything later in this file, this section wins.
+
+* **Legal name:** "Premier Cleaners of Upstate NY LLC" (FB). Use it where a formal name belongs: the header wordmark, the footer copyright, the About page's first mention, the Contact page beside the mailing address, and page titles and meta descriptions that name the business. Keep "Premier Cleaners" or "Premier" as the short reference elsewhere (FB).
+* **Header tagline:** "Commercial Cleaning", with a capital C (FB).
+* **Family:** Donald's son recently joined the business. His name and role are unknown; publish neither. Donald asked for a subtle "family-run" mention (FB). This replaces the Revision #2 "father-and-son business" wording. Still never "family-owned".
+* **Reference letter attribution:** BCC permission is granted. Attribute the letter as "— Steve Potts, Director of Operations and IT Compliance, BCC Software". This supersedes the anonymous attribution. Still no BCC logo, no email address and no PDF.
+* **Reference letter presentation:** quotes 1, 4 and 5 appear as ONE excerpt from a single letter (FB: "one letter, not three separate people"): one block labelled "From a client's letter of recommendation", the quotes joined verbatim with "…" where text is skipped, one attribution line, then "Full letter and client references available on request." Never label it a testimonial or review.
+* **Copy style:** H1 and H2 headings use title case (FB). Issue-handling copy must not suggest problems are common; say that anything that comes up is taken care of (FB). Avoid the possessive "its" in public copy; Donald reads it as a mistake, so use "the building's" or "the facility's" or reword (FB).
+* **Rendering:** mobile and desktop should look the same (FB).
+
+---
+
 # Revision #2 — Owner Input and Follow-up (2026-10-01)
 
 > **Revision #2 record, dated 2026-10-01.** This section records the owner's confirmed answers from two files:
@@ -33,6 +47,7 @@ The never-invent rules (sections 25, 48 and 51) still apply to everything the tw
 * **Owner:** Donald Hunter (OI L7). Use "Donald Hunter" in text, with no photo; owner's words: "Yes, please!" (OF L7). This supersedes the owner-input rule against using the name (OI L7, OI L103).
 * **Owner visibility:** "No appearance is needed." (OI L21). Named in text only: no owner photo or portrait, and no owner spotlight section (OI L22, OF L7). Do not put his name in image alt text or captions. Owner involvement stays a business trait: "you work directly with the owner" (OI L22).
 * **Father-and-son business:** Donald asked that the site say Premier is a father-and-son business (OF L9). Say "father-and-son business" without naming the son; his name and role are still open (OF L10, OF L40). Never use "family-owned".
+  > **Superseded (Owner feedback round 1, 2026-10-01):** use a subtle "family-run" mention instead of "father-and-son business"; the son's name and role stay unpublished. See "Owner Feedback Round 1" at the top of this file.
 * **Healthcare:** "Just 1 part of the business." (OI L23). Healthcare is one part of a broader commercial business, not the lead identity.
 * **Brand pillars:** the three impressions Donald wants are **reliability, high integrity, rock-solid performance** (OI L16).
 * **Positioning, in Donald's words:** "An ever expanding strong local company that is raising the bar for quality cleaning performance." (OI L17). Move from "big-city elite" framing to Greater Rochester's standard-setter; keep the premium execution, local roots, growth story and current visual quality (OI L18). No New York City, Boston or other big-city comparison.
@@ -129,6 +144,7 @@ Keep the qualifiers ("some", "10×10 ft or less", "most extras"). Never promise 
   5. "Donald provides exceptional janitorial services and brings reliability, skill, and professionalism to everything he does." (OI L84)
 * **Site selection for this revision:** quotes 1, 4 and 5 (Revision #2 decisions 001 and 003). Quotes 2 and 3 are not used on the site.
 * **Attribution:** until BCC approves, "— Director of Operations, Rochester-area software company" (OI L90, OF L38). Only after BCC approves (still open): "— Steve Potts, Director of Operations and IT Compliance, BCC Software" (OI L91). Never use the BCC logo (OI L92).
+  > **Superseded (Owner feedback round 1, 2026-10-01):** BCC permission is granted. Use "— Steve Potts, Director of Operations and IT Compliance, BCC Software". See "Owner Feedback Round 1" at the top of this file.
 * Do not turn letter phrases such as "safety protocols" or "hygiene and health standards" into certification or compliance claims (OI L94).
 
 ## Contact & service area
@@ -151,6 +167,7 @@ Not confirmed. Keep these off the public site entirely, with no placeholder or "
 
 * **Texting:** whether 585-340-6868 receives texts (OF L37; asked in OI L104). No "text us" and no SMS link.
 * **BCC permission:** to name Steve Potts and BCC Software in the attribution (OF L38; asked in OI L109). Keep the anonymous attribution.
+  > **Superseded (Owner feedback round 1, 2026-10-01):** answered: permission granted. See "Owner Feedback Round 1" at the top of this file.
 * **Logo:** Donald will forward it; keep the current text wordmark until the file arrives (OF L39; asked in OI L111).
 * **The son's name and role** (OF L10, OF L40).
 * **"Twice a year"** for restroom ceramic tile scrubbing: confirm that "bi-annual" means twice a year, not every two years (OF L41).
@@ -164,6 +181,7 @@ Not confirmed. Keep these off the public site entirely, with no placeholder or "
 # 1. Business Identity
 
 * **Business name:** Premier Cleaners
+  > **Superseded (Owner feedback round 1, 2026-10-01):** legal name "Premier Cleaners of Upstate NY LLC". See "Owner Feedback Round 1" at the top of this file.
 * **Industry:** Commercial cleaning / janitorial services
 * **Primary market:** Rochester, New York
 * **Service area:** Greater Rochester
@@ -1132,6 +1150,7 @@ Do not publish without confirmation:
 * specific medical certifications;
 * specific named clients;
   > **Revision #2 scoped annotation (2026-10-01):** Client names stay unconfirmed. Letter quotes 1, 4 and 5 may appear as quotes, keeping "Donald", attributed only "Director of Operations, Rochester-area software company". BCC and Steve Potts stay unnamed. Property-manager partnerships are a confirmed target, not a named client.
+  > **Superseded (Owner feedback round 1, 2026-10-01):** attribute the letter to "Steve Potts, Director of Operations and IT Compliance, BCC Software". See "Owner Feedback Round 1" at the top of this file.
 * specific service areas;
   > **Revision #2 scoped annotation (2026-10-01):** Only the exact line "Based in Rochester, serving Upstate New York." is confirmed. Towns and counties stay unconfirmed.
 * specific cleaning frequencies;
